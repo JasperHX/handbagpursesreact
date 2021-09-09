@@ -1,9 +1,7 @@
 
 function Button({children})   {
     return  (
-        <>
-        <h4>{children}</h4>
-        </>
+        <button>{children}</button>
     );
 }
 
