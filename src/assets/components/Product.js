@@ -1,32 +1,14 @@
 import React from "react";
 
-
-
-function Product(image, title,) {
+function Product({price, image, title, redtitle}) {
     return  (
         <article className="article">
-            <span className="article.span">Best Seller</span>
-            <img src="/" alt='tas_1' />
-            <p className="article.p">The Handy bag</p>
-            <h4 className="h4">&euro;400,-</h4>
+            <span className="article.span">{redtitle}</span>
+            <img src={image} alt='tas' />
+            <p className="article.p">{title}</p>
+            <h4 className="h4">{price}</h4>
         </article>
-
     );
 }
 
 export default Product;
-
-
-// function Product()  {
-//     return  (
-//         <article className="article">
-//             <span className="article.span">Best Seller</span>
-//             <img src={} alt="tas_1" />
-//             <p className="article.p">The Handy bag</p>
-//             <h4 className="h4">&euro;400,-</h4>
-//         </article>
-//
-//     );
-// }
-//
-// export default Product;
