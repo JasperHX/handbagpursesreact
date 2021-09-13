@@ -5,8 +5,7 @@ import bag_1 from './assets/bag_1.png';
 import bag_2 from './assets/bag_2.png';
 import bag_3 from './assets/bag_3.png';
 import bag_4 from './assets/bag_4.png';
-// import Product from "./assets/components/Products";
-// import Product from './Products';
+import Product from './assets/components/Product';
 
 function App() {
   return (
@@ -19,12 +18,6 @@ function App() {
       </nav>
 
           <main>
-
-              {/*<Product*/}
-              {/*    image={bag_1}*/}
-              {/*    title=""*/}
-              {/*    description=""*/}
-              {/*/>*/}
 
               <article>
                   <span>Best Seller</span>
