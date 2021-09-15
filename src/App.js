@@ -48,17 +48,17 @@ function App() {
             </main>
             <footer>
                 <Tile
-                    title="the brand"
-                    paragraph="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque optio reiciendis tempora veritatis voluptas. Aliquam deleniti esse et quos voluptatum."
-                    />
+                    title="the brand">
+                    <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis debitis doloremque error exercitationem explicabo illum libero quas quos sapiente ullam!</p>
+                </Tile>
                 <Tile
                     image={brand}
-
                     />
                 <Tile
                     image={our_story}
                     />
-                <Tile title="our story">
+                <Tile
+                    title="our story">
                     <p> ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis debitis doloremque error exercitationem explicabo illum libero quas quos sapiente ullam!</p>
                     <p>test2</p>
                 </Tile>
@@ -70,5 +70,8 @@ function App() {
 
 export default App;
 
+// Component aanroepen met property's? Dan gebruik maken van <Naam />
+// Compinent aanroepen met property's maar ook children? Dan <Naam properties en closen > en dan de childeren in een element
+// Bij 60 t/m 63 kan je dus meerder paragrafen meegeven (wel apart maken in app.js) maar op deze manier hoef je deze niet in de component elke keer apart te benoemen want je maakt gebruik van de children van het
 
 

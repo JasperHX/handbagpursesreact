@@ -8,3 +8,5 @@ function Button({children, isDisabled})   {
 }
 
 export default Button;
+
+// disabled = {isDisabled} --> in Button op true of false zetten.
