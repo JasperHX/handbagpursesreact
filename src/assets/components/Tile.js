@@ -21,3 +21,4 @@ export default Tile;
 // regel 6: && true or false. Na false stop het lezen van js. Bij true gaat hij door en return hij de image
 // regel 8: greyed out! Hier return je dus een aparte property aan in dit geval p met paragraph.
 // Maar als je met children werk
+// Lorem.
