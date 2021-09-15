@@ -12,3 +12,5 @@ function Product({price, image, title, redtitle}) {
 }
 
 export default Product;
+
+// Lorem.
