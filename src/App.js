@@ -15,10 +15,11 @@ function App() {
         <>
             <h1>Handbags & Purses</h1>
             <nav>
-                <button>to the collection</button>
-                <button>shop all bags</button>
-                <button disabled={true}>pre-orders</button>
+                <Button isDisabled={false}>to the collection</Button>
+                <Button isDisabled={false}>shop all bags</Button>
+                <Button isDisabled={true}>pre-orders</Button>
             </nav>
+
             <main>
                 <Product
                     image={bag_1}
@@ -57,10 +58,10 @@ function App() {
                 <Tile
                     image={our_story}
                     />
-                <Tile
-                    title="our story"
-                    paragraph="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis debitis doloremque error exercitationem explicabo illum libero quas quos sapiente ullam!"
-                    />
+                <Tile title="our story">
+                    <p> ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis debitis doloremque error exercitationem explicabo illum libero quas quos sapiente ullam!</p>
+                    <p>test2</p>
+                </Tile>
             </footer>
         </>
 

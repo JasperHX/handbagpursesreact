@@ -1,9 +1,9 @@
 
 import React from "react";
 
-function Button({children})   {
+function Button({children, isDisabled})   {
     return  (
-        <button>{children}</button>
+        <button disabled={isDisabled}>{children}</button>
     );
 }
 
